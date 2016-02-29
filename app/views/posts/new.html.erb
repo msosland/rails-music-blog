@@ -1,0 +1,7 @@
+<% if logged_in? %>
+<%= render 'form' %>
+<% else %>
+Not authorized.
+<% end %>
+
+<%= link_to 'Home', posts_path %>

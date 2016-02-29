@@ -1,0 +1,38 @@
+.content-wrapper {
+  text-align: center;
+  padding-top: 140px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.link-to {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 7px;
+  border-radius: 1px;
+}
+
+.new_post {
+  font-size: 20px;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 7px;
+  border-radius: 1px;
+  margin: 20px;
+}
+
+input[type=text] {
+  margin: 20px;
+}
+
+.front-but {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 4px;
+  border-radius: 1px;
+}

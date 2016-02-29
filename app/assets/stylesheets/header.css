@@ -1,0 +1,16 @@
+header {
+  background-color: #444;
+  color: white;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+
+}
+
+header h1 {
+  height: 100%;
+  font-size: 32px;
+  font-family: Arial, serif;
+}

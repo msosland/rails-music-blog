@@ -1,0 +1,14 @@
+<%= link_to "Create New Post", new_post_path, {class: "link-to"} %>
+
+<h2>Songs for Listening To<h2>
+
+<% @posts.each do |post| %>
+  <h3><%=post.title%><h3>
+  <%=post.created_at%>
+  <p><%=post.body%></p>
+  <% if logged_in? && current_user == post.user %>
+    <%= link_to 'Edit', edit_post_path(post), class: "front-but" %>
+    <%= link_to 'Delete', post, method: :delete, data: {confirm: "Are you SURE sure?"}, class: "front-but" %><br>
+    <% end %>
+<% end %>
+

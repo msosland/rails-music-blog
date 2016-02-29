@@ -1,0 +1,6 @@
+<%= form_for @post do |f| %>
+  <%= f.text_field :title, placeholder: "Title" %><br>
+  <%= f.text_area :body, cols: 50, rows: 10, placeholder: "Your Post Here..." %><br>
+  <%= f.submit %>
+<% end %>
+

@@ -1,0 +1,8 @@
+
+<% if logged_in? && @post.user == current_user %>
+<%= render 'form' %>
+<% else %>
+Not authorized.
+<% end %>
+
+<%= link_to 'Home', posts_path %>
